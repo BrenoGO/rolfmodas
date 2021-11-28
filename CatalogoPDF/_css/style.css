@@ -1,0 +1,54 @@
+body{
+	background-image: url("../_imagens/background.jpg");
+}
+#logo{
+	width: 14%;
+	height: 10%;
+}
+#title{
+	color: green;
+	text-align: center; 
+	font-size: 300%;
+	text-shadow: 1px 1px 1px black;
+	font-family: Ananda, Arial, sans-serif;
+}
+#descricao{
+	font-size: 200%;
+	text-shadow: 1px 1px 1px white;
+}
+#div1{
+	background-color: white;
+	box-shadow: 1px 1px 1px black;
+	border-radius: 10px;
+	width: 40%;
+}
+#modelo {
+	position: relative; 	
+	width: 30%;
+	height: 70%;
+	float: left;
+}
+#modelo2 {
+	position: relative; 	
+	width: 30%;
+	height: 70%;
+	float: right;
+}
+
+@font-face {
+    font-family: Ananda;
+    src: url(../_fontes/ananda.ttf);
+}
+@media (max-width: 760px), handheld {	
+	#modelo2, #modelo {
+		display: none;
+	}
+	#div1{
+		width: 95%;
+	}
+	#logo{
+		width: 34%;
+		height: 30%;
+		float: right;
+	}
+}

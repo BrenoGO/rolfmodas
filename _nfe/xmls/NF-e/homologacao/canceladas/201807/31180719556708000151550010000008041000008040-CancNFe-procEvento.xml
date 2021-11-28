@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procEventoNFe versao="1.00" xmlns="http://www.portalfiscal.inf.br/nfe">
+	<evento xmlns="http://www.portalfiscal.inf.br/nfe" versao="1.00">
+		<infEvento Id="ID1101113118071955670800015155001000000804100000804001">
+			<cOrgao>31</cOrgao>
+			<tpAmb>2</tpAmb>
+			<CNPJ>19556708000151</CNPJ>
+			<chNFe>31180719556708000151550010000008041000008040</chNFe>
+			<dhEvento>2018-07-05T12:35:07-03:00</dhEvento>
+			<tpEvento>110111</tpEvento>
+			<nSeqEvento>1</nSeqEvento>
+			<verEvento>1.00</verEvento>
+			<detEvento versao="1.00">
+				<descEvento>Cancelamento</descEvento>
+				<nProt>131180133775782</nProt>
+				<xJust>DUPLICIDADE DE NF COM A NF 803</xJust>
+			</detEvento>
+		</infEvento>
+		<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+			<SignedInfo>
+				<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+				<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+				<Reference URI="#ID1101113118071955670800015155001000000804100000804001">
+					<Transforms>
+						<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+						<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+					</Transforms>
+					<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+					<DigestValue>OQJ+WdZt+bIeMcn2qzFhlj9wihc=</DigestValue>
+				</Reference>
+			</SignedInfo>
+			<SignatureValue>dUpJGhGHkubG+NnU92CYPjXdG/mBFBplCzBISSOZNYEL2TkCqMPKTVbZkwqQIpY9GQg2T3qW4QH3Rgm7HShnpPTMP3/HF7DOIJeEipQWjKM8HbmNVAFezsNSMqyMykWoN6QqJo51zljAnNsIH70/kr7hPn6TScCmURmKJ5bTRd3+buemN+A18W3HSAv4SedMMct4prTKmcJxQAt4IehYfqez12DOy+IYftUCVHLzwPKY0xQO534dboBdRRrPJ+QO9AFgQnowHF8f/N77OzMoO/LJ4jOIwUf1DKUcldiKoJzY8+M0kvXp9iBTEWfk8WV2dcYTCtLF56lhtZDQRZu9Mw==</SignatureValue>
+			<KeyInfo>
+				<X509Data>
+					<X509Certificate>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</X509Certificate>
+				</X509Data>
+			</KeyInfo>
+		</Signature>
+	</evento>
+	<retEvento versao="1.00">
+		<infEvento Id="ID131180133775787">
+			<tpAmb>2</tpAmb>
+			<verAplic>14.1.44</verAplic>
+			<cOrgao>31</cOrgao>
+			<cStat>135</cStat>
+			<xMotivo>Evento registrado e vinculado a NF-e.</xMotivo>
+			<chNFe>31180719556708000151550010000008041000008040</chNFe>
+			<tpEvento>110111</tpEvento>
+			<xEvento>CANCELAMENTO</xEvento>
+			<nSeqEvento>1</nSeqEvento>
+			<CNPJDest>66420290000130</CNPJDest>
+			<dhRegEvento>2018-07-05T12:35:08-03:00</dhRegEvento>
+			<nProt>131180133775787</nProt>
+		</infEvento>
+	</retEvento>
+</procEventoNFe>

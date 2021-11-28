@@ -1,0 +1,2 @@
+Apenas pegar o arquivo e colocar no _nfe/certs
+e verificar o nome do arquivo no config.php
